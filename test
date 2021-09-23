@@ -1,0 +1,6 @@
+main src import *
+num = int(input("Enter number: "))
+digit = 0
+while digit < num:
+    print(digit+1, " - ", result[digit]['name'], result[digit]['market_cap'])
+    digit += 1
